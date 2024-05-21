@@ -1,0 +1,37 @@
+body, h1{
+  background: rgb(26,166,171);
+  background: linear-gradient(90deg, rgba(26,166,171,1) 9%, rgba(121,56,73,0) 41%, rgba(179,172,210,0.8436892744423686) 64%, rgba(96,97,179,0.9564692400503849) 80%);
+  text-align: center;
+  } 
+  h1::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+  align: center;
+  }
+  h1::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+  }
+  button:hover{
+  font-size: 1.2em;
+  background-color: lightblue;
+  font-variant: small-caps;
+  color: green;
+  align:center;
+  }
+  input::placeholder{
+  background-color: lightblue;
+  padding: 20px;
+  color:red;
+  }
+  input:hover{
+  background-color: lightblue;
+  font-style: italic;
+  }
+  a:link{
+  color: purple;
+  }  	
+  a:hover {
+  color: red;
+  font-size: 1.1em;
+  } 
